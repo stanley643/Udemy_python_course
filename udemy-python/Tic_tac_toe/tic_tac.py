@@ -89,7 +89,7 @@ def selectRandom(li):
     import random
     ln = len(li)
     r = random.randrange(0,ln)
-    return li(r)
+    return li[r]
 
 def main():
     print("Welcome to the gam!")
